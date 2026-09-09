@@ -4,25 +4,45 @@
 
 ## 技能列表
 
-| 技能 | 用途 | 导入 URL |
-|---|---|---|
-| **cloudflare** | Cloudflare DNS / Workers / Pages / CDN 管理 | `.../tree/main/skills/cloudflare` |
-| **context-manager** | 长对话上下文压缩与 token 优化 | `.../tree/main/skills/context-manager` |
-| **devops** | 部署自动化与基础设施管理 | `.../tree/main/skills/devops` |
-| **docker** | Docker 容器管理与故障排查 | `.../tree/main/skills/docker` |
-| **github** | GitHub 仓库分析、代码审查、部署说明 | `.../tree/main/skills/github` |
-| **linux** | Linux 服务器运维、日志分析、性能排障 | `.../tree/main/skills/linux` |
-| **markdown** | 技术文档与 README 写作 | `.../tree/main/skills/markdown` |
-| **mcp-builder** | 构建、配置、维护 MCP 服务器 | `.../tree/main/skills/mcp-builder` |
-| **network** | 网络延迟 / 路由 / 丢包分析 | `.../tree/main/skills/network` |
-| **planner** | 任务规划与推理优化 | `.../tree/main/skills/planner` |
-| **security** | 安全审计与服务器加固建议 | `.../tree/main/skills/security` |
-| **shell** | Bash 脚本编写与命令分析 | `.../tree/main/skills/shell` |
-| **skill-creator** | 创建、改进、维护 AI 技能 | `.../tree/main/skills/skill-creator` |
-| **task-executor** | 高效任务执行与结果验证 | `.../tree/main/skills/task-executor` |
-| **tool-router** | 工具选择与 MCP 路由优化 | `.../tree/main/skills/tool-router` |
+| 技能 | 用途 |
+|---|---|
+| **cloudflare** | Cloudflare DNS / Workers / Pages / CDN 管理 |
+| **context-manager** | 长对话上下文压缩与 token 优化 |
+| **devops** | 部署自动化与基础设施管理 |
+| **docker** | Docker 容器管理与故障排查 |
+| **github** | GitHub 仓库分析、代码审查、部署说明 |
+| **linux** | Linux 服务器运维、日志分析、性能排障 |
+| **markdown** | 技术文档与 README 写作 |
+| **mcp-builder** | 构建、配置、维护 MCP 服务器 |
+| **network** | 网络延迟 / 路由 / 丢包分析 |
+| **planner** | 任务规划与推理优化 |
+| **security** | 安全审计与服务器加固建议 |
+| **shell** | Bash 脚本编写与命令分析 |
+| **skill-creator** | 创建、改进、维护 AI 技能 |
+| **task-executor** | 高效任务执行与结果验证 |
+| **tool-router** | 工具选择与 MCP 路由优化 |
 
-URL 前缀统一为 `https://github.com/lll33lll/rikkahub-skills`。
+## 完整导入 URL
+
+GitHub 导入框里直接粘贴以下地址（一次一个技能）：
+
+```
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/cloudflare
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/context-manager
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/devops
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/docker
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/github
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/linux
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/markdown
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/mcp-builder
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/network
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/planner
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/security
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/shell
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/skill-creator
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/task-executor
+https://github.com/lll33lll/rikkahub-skills/tree/main/skills/tool-router
+```
 
 ## 在 RikkaHub 中导入
 
@@ -30,8 +50,7 @@ URL 前缀统一为 `https://github.com/lll33lll/rikkahub-skills`。
 
 1. 打开 RikkaHub → 设置 → 助手 → 扩展 → 技能
 2. 点「+」→ **从 GitHub 导入**
-3. 填技能子目录 URL，例如：
-   `https://github.com/lll33lll/rikkahub-skills/tree/main/skills/linux`
+3. 粘贴上面任意一条完整 URL
 4. 导入后回助手设置 → 扩展 → 技能标签页 → 勾选启用
 
 ### 批量导入（一次装全部）
